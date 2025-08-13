@@ -4,7 +4,7 @@
   "description": "A lightweight, zero-dependency Node.js web server for serving Unity WebGL builds locally and across networks",
   "main": "server.js",
   "bin": {
-    "unity-serve": "./server.js"
+    "unity-serve": "server.js"
   },
   "scripts": {
     "start": "node server.js"

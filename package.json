@@ -1,0 +1,41 @@
+{
+  "name": "unity-server",
+  "version": "1.0.0",
+  "description": "A lightweight, zero-dependency Node.js web server for serving Unity WebGL builds locally and across networks",
+  "main": "server.js",
+  "bin": {
+    "unity-serve": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "unity",
+    "webgl",
+    "server",
+    "gamedev",
+    "game-development",
+    "local-server",
+    "http-server",
+    "development-server",
+    "unity3d"
+  ],
+  "author": "Sov3rain",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sov3rain/unity-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sov3rain/unity-server/issues"
+  },
+  "homepage": "https://github.com/Sov3rain/unity-server#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "preferGlobal": true,
+  "files": [
+    "server.js",
+    "README.md"
+  ]
+}

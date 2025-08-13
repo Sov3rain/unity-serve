@@ -1,4 +1,4 @@
-# Unity Server
+# Unity Serve
 
 A lightweight, zero-dependency Node.js web server specifically designed for serving Unity WebGL builds locally and across networks.
 

@@ -1,5 +1,5 @@
 {
-  "name": "unity-server",
+  "name": "@sov3rain/unity-serve",
   "version": "1.0.0",
   "description": "A lightweight, zero-dependency Node.js web server for serving Unity WebGL builds locally and across networks",
   "main": "server.js",

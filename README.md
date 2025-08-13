@@ -9,7 +9,6 @@ A lightweight, zero-dependency Node.js web server specifically designed for serv
 - 🌐 **Network access** - Provides local IP address for testing on other devices
 - 🎮 **Unity WebGL optimized** - Includes proper MIME types and CORS headers
 - 🗜️ **Compression support** - Handles both Brotli (.br) and Gzip (.gz) files
-- 🔒 **Security** - Prevents directory traversal attacks
 - 🎯 **Simple to use** - Just run in your WebGL build folder
 
 ## Installation
@@ -25,14 +24,6 @@ Then use anywhere:
 unity-serve
 ```
 
-### Local Installation
-
-```bash
-npm install @sov3rain/unity-server
-```
-
-Or download the `server.js` file directly and run with Node.js.
-
 ## Usage
 
 ### Method 1: Global Command (if installed globally)
@@ -47,13 +38,6 @@ unity-serve
 ```bash
 cd path/to/your/unity-webgl-build
 npx @sov3rain/unity-server
-```
-
-### Method 3: Direct Node.js
-
-```bash
-cd path/to/your/unity-webgl-build
-node server.js
 ```
 
 ## What You'll See
